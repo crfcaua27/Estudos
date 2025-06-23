@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Álbuns de Hip Hop Icônicos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            background: #181818;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #222;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background: #242424;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px #000a;
+        }
+        .album-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            justify-content: center;
+        }
+        .album {
+            background: #333;
+            border-radius: 6px;
+            width: 220px;
+            padding: 16px;
+            box-shadow: 0 1px 4px #0005;
+            transition: transform 0.2s;
+        }
+        .album:hover {
+            transform: scale(1.04);
+        }
+        .album img {
+            width: 100%;
+            border-radius: 4px;
+        }
+        .album h2 {
+            font-size: 1.1em;
+            margin: 12px 0 5px 0;
+        }
+        .album .artist {
+            font-size: 0.96em;
+            color: #b2b2b2;
+        }
+        .album .year {
+            font-size: 0.9em;
+            color: #8cf;
+        }
+        @media (max-width: 700px) {
+            .album-list { flex-direction: column; align-items: center; }
+            .album { width: 94%; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Álbuns de Hip Hop Icônicos</h1>
+        <p>Uma seleção de álbuns clássicos e influentes do Hip Hop</p>
+    </header>
+    <div class="container">
+        <div class="album-list">
+            <div class="album">
+                <img src="https://upload.wikimedia.org/wikipedia/en/2/2e/IllmaticNas.jpg" alt="Nas - Illmatic">
+                <h2>Illmatic</h2>
+                <div class="artist">Nas</div>
+                <div class="year">1994</div>
+            </div>
+            <div class="album">
+                <img src="https://upload.wikimedia.org/wikipedia/en/4/45/Kendrick_Lamar_-_To_Pimp_a_Butterfly.png" alt="Kendrick Lamar - To Pimp a Butterfly">
+                <h2>To Pimp a Butterfly</h2>
+                <div class="artist">Kendrick Lamar</div>
+                <div class="year">2015</div>
+            </div>
+            <div class="album">
+                <img src="https://upload.wikimedia.org/wikipedia/en/9/97/2PacAllEyezOnMe.jpg" alt="2Pac - All Eyez On Me">
+                <h2>All Eyez On Me</h2>
+                <div class="artist">2Pac</div>
+                <div class="year">1996</div>
+            </div>
+            <div class="album">
+                <img src="https://upload.wikimedia.org/wikipedia/en/f/fb/The_Black_Album_Cover.png" alt="Jay-Z - The Black Album">
+                <h2>The Black Album</h2>
+                <div class="artist">Jay-Z</div>
+                <div class="year">2003</div>
+            </div>
+            <div class="album">
+                <img src="https://upload.wikimedia.org/wikipedia/en/5/55/OutkastSpeakerboxx.jpg" alt="Outkast - Speakerboxxx/The Love Below">
+                <h2>Speakerboxxx/The Love Below</h2>
+                <div class="artist">Outkast</div>
+                <div class="year">2003</div>
+            </div>
+            <div class="album">
+                <img src="https://upload.wikimedia.org/wikipedia/en/4/4c/Eminem_-_The_Marshall_Mathers_LP.png" alt="Eminem - The Marshall Mathers LP">
+                <h2>The Marshall Mathers LP</h2>
+                <div class="artist">Eminem</div>
+                <div class="year">2000</div>
+            </div>
+        </div>
+    </div>
+    <footer style="text-align:center; padding:20px; color:#888; background:#181818;">
+        &copy; 2025 Álbuns de Hip Hop | Feito por fãs da cultura Hip Hop
+    </footer>
+</body>
+</html>
